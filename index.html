@@ -12,12 +12,14 @@
 
 <body>
 <!--Live Tidbits Start-->
-    <div class="container">
-        <div class="row border bg-light">
-            <div class="col text-center">
-                <h4 id=#top>Live Learning Samples</h4>
-            </div>
-        </div>
+<div class="row border bg-light">
+<a class="col text-center" data-toggle="collapse" href="#collapseLive" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <h4>Cynthia's active learning samples</h4>
+</a>
+</div>
+<div class="collapse" id="collapseLive">
+    <div class="container">        
+    <div class="card card-body">
         <div class="row border bg-light">
             <div class="col text-center">
             <a href="https://publishct.github.io/carousel/" target="_blank" rel="noopener">React Photo Carousel</a>
@@ -51,14 +53,14 @@
         </div>    
         </div>
     </div> 
+</div>
+</div>
 <!--Live Tidbits End-->
 
 <!--Personal Jumbotron Start-->
 <!--Name, Photo and Tags Start-->
 <div class="jumbotron">
-<!--LinkedIn Button-->
-    <a class="btn btn-primary btn-sm" href="https://www.linkedin.com/in/cynthiatrujillo96/" role="button" target="_blank">LinkedIn</a>
-    <h1 class="display-4">Cynthia Trujillo</h1>
+    <h1 class="display-4" id="#top">Cynthia Trujillo</h1>
     <div class="media">
         <img src="img/selfie-with-shaved-head--blond.jpg" class="mr-3" alt="profile image selfie from the neck up with eyes looking at the camera with a slight smile a shaved head and clear acetate glasses against a dark background">
         <div class="media-body">
@@ -67,11 +69,13 @@
           <span class="badge badge-success">Coding Instructor</span>
           <span class="badge badge-success">Education Engineer</span>
         </div>
+        <div class="linkedInContainer"></div>
+        <div class="githubContainer"></div>
     </div>
 <!--Name, Photo and Tags End-->
     
 <!--Headline Start-->
-    <p class="lead">Cynthia Trujillo is an advocate for listening and asking questions to develop hybrid web and mobile applications. 
+    <p class="lead">Cynthia Trujillo advocates for listening and asking questions to develop hybrid web and mobile apps
     </p>
     <hr class="my-4">
 <!--Headline End-->
@@ -79,7 +83,7 @@
 <!--Description Statement Start-->
     <p>Cynthia has experience in client-side and server-side JavaScript and modern frameworks like React, Gatsby, and Angular. 
         Cynthia writes about web development from getting started to growing from failure. 
-        They scour tutorials, engage community groups (Women Who Code), and work with bootcamp peers on Slack.  
+        They scour tutorials, engage community groups (Women Who Code), and work with former bootcamp peers on Slack.  
         Cynthia is passionate about the intersections of art and technology in teaching software engineers. 
     </p>
     <p>   
@@ -90,38 +94,108 @@
 
 <!--Collapse Menus Start-->
 <!--CV-->
-    <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapseCV" role="button" aria-expanded="false" aria-controls="collapseExample">
         View Cynthia's Resume
     </a>
 <!--Articles and JavaScript Library-->
-    <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapseJS" role="button" aria-expanded="false" aria-controls="collapseExample">
         Community Contributions
     </a>
 <!--Live Apps-->
-    <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapseLA" role="button" aria-expanded="false" aria-controls="collapseExample">
         Production Level Apps
     </a>
 <!--Collapse Menus End-->
 <!--Personal Jumbotron End-->
 
 <!--Resume Start-->
-<h1>Cynthia Trujillo (they, them, theirs)</h1>
-    <h2>Education Engineer</h2>
-    <div class="collapse" id="collapseExample">
-        <div class="card card-body">
+<div class="collapse" id="collapseCV">
+    <div class="card card-body">
 
+<h2>Cynthia Trujillo (they, them, theirs)</h2>
+<h2>Education Engineer</h2>
 <!--Languages Start-->
 <h2>Tools and Technologies</h2>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">Cloud: Amazon EC2, Digital Ocean, Netlify</li>
-        <li class="list-group-item">Data: MySQL, MariaDB, MongoDB</li>
-        <li class="list-group-item">Languages: PHP and Node.js</li>
-        <li class="list-group-item">APIs and Services: RESTful and GraphQL</li>
-        <li class="list-group-item">Frameworks and Libraries: Bootstrap, jQuery, React, Angular, Ionic</li>
-        <li class="list-group-item">Tools: Webpack and Babel</li>
-        <li class="list-group-item">Version Control: Git and test driven development</li>
+        <li class="list-group-item">Data: MongoDB, MySQL, MariaDB</li>
+        <li class="list-group-item">Languages: HTML5, CSS3, JavaScript, ES6, TypeScript, Node.js</li>
+        <li class="list-group-item">APIs and Services: REST, GraphQL</li>
+        <li class="list-group-item">Frameworks and Libraries: Bootstrap, jQuery, React, Gatsby, Angular, Ionic</li>
+        <li class="list-group-item">Tools: Gulp.js, Webpack, Babel, ESLint, Prettier, ARIA specs, VSCode</li>
+        <li class="list-group-item">Version Control: Git, test driven development</li>
     </ul>
 <!--Languages End-->
+
+<!--Professional Experience Start-->
+<h2>Professional Experience</h2>
+    <h3>Freelance Fullstack Programmer - Chicago, IL</h3> 
+        June 2020 - Present 
+    <ul>
+        <li>Volunteer with OPEN Center for the Arts Chicago to deliver a repository for the 2020 cohort blogs that host various media
+        </li>
+    </ul>
+        
+    <h3>Independent Writer and Filmmaker - Chicago, IL</h3>
+        October 2019 - Present 
+    <ul>
+        <li>Writer and editor for forthcoming novel, "Indigo Up Next." Engage in writing critiques with Chicago Writers' Circle to receive and provide feedback on legibility, punctuation/ grammar, and overall narration. Emphasis on storytelling techniques, character organization and theme planning
+        </li>
+        <li>Manager of poetry CMS made with Ghost. The site features personal haikus and flower photography
+        </li>
+        <li>Interned in Summer 2020 with Open Center for the Arts, an art gallery in La Villita, Chicago. Delivered daily blog reflections, daily vlogs, weekly video production and writing, as well as necessary research and reflection on storytelling and film-making
+        </li>
+    </ul>
+
+    <h3>Independent Administrative Contractor - Chicago, IL</h3>
+        American Osteopathic Foundation
+        January 2020 - October 2020 
+    <ul>
+        <li>Engaged databases in WizeHive, Raiser’s Edge, and Microsoft Dynamics to support team functions in seamless donation collection; scholarship application efficiency, and cohesive data tracking
+        </li> 
+        <li>Collaboratively engaged the team by communicating agendas, meeting minutes, and action items for weekly staff meetings and quarterly board meetings
+        </li> 
+        <li>Wrote, reviewed, and updated Statements of Procedure that were distinct and precise
+        </li> 
+        <li>Assisted in record of vendor payments as well as grant disbursements, tracked Form W-9s, and recorded payments via ACH; tracked and collected credit card expenses and receipts from team members
+        </li> 
+        <li>Assisted in dissemination of vendor payments and payments for scholarships, grants, and awards via ACH; tracked and collected credit card expenses and receipts.
+        </li> 
+        <li>Led the discovery and data entry of historical award winners. Proven efficiency in Excel and Raiser’s Edge with search engine research; made improvements for reading, navigation, and data collection and accuracy 
+        </li> 
+    </ul>
+
+    <h3>HR Coordinator and On-Boarding Specialist - Chicago, IL</h3>
+        TransTech IT Staffing
+        May 2018 - October 2019 
+    <ul>
+        <li>Successfully transferred entire on-boarding document package from Adobe e-sign to DocuSign in short amount of time making full use of new tools; emphasized user experience and ease of completion; worked through design challenges by accounting for the needs of new hires and the recruiting team; implemented radio buttons, response authentication, and mandatory fields to improve data collection; trained new users and effectively troubleshooted IT-related concerns
+        </li>
+        <li>Led the initiative for automated on-boarding (to Bullhorn CRM) by translating needs of accounting and recruiting departments into actionable steps; coordinated stakeholder meetings, prepared action items based on implementation timeline, and tested changes for user error; implemented Microsoft Flow automated workflows to improve productivity, which allowed for seamless contract retention
+        </li>
+        <li>Utilized training on U.S. work authorization, business certificates, and contract administration to consolidate the subcontractor line of business audit in Excel; minimized liability potential month over month
+        </li>
+        <li>Steered clear of subcontractor compliance issues with faster contract negotiation responses and increased data accuracy of partner companies for recruiters in Bullhorn CRM
+        </li>
+        <li>Coordinated benefit enrollments with providers (BCBS, VSP, Fidelity), entered data online, answered questions, and tracked changes for all payroll employees; reported to the Controller weekly/monthly
+        </li>
+        <li>Managed consultant background checks and drug screens
+        </li> 
+    </ul>
+    
+    <h3>Administrative Assistant - Los Angeles, CA</h3>
+        Robert Half
+    <ul>
+        <li>Began as an administrative assistant and then elevated to a more comprehensive HR role
+        </li>
+        <li>Managed consultant background check requests/ results and communicated status daily to recruiters
+        </li>
+        <li>Processed online client time-sheet approvals; used email and phone to effectively reach dozens of consultants; evaluated over 100 submissions weekly
+        </li>
+        <li>Certified and processed on-boarding forms for consultants, formatted resumes, and answered phones
+        </li>
+    </ul>   
+<!--Professional Experience End-->  
 
 <!--Certifications Start-->
 <h2>Certifications</h2>
@@ -133,94 +207,34 @@
     </ul> 
 <!--Certifications End-->
 
-<!--Professional Experience Start-->
-<h2>Professional Experience</h2>
-    <h3>Freelance Full Stack Programmer - Chicago, IL</h3> 
-        August 2020 - Present 
-    <ul>
-        <li>Full Stack Web and Hybrid Mobile Application Development. I worked on a volunteer basis to deliver OPEN Center for the Arts Chicago a repository for the 2020 cohort blogs. As I expand my client list, I am furthering my own professional development in the LAMP and MEAN tech stacks. Like many others, I am drawn to the re-usability and functionality of the component era, which I explore in React and GraphQL. I have deployed sites on AWS and Netlify. My rigorous training has equipped me with version control experience via Git.
-        </li>
-    </ul>
-        
-    <h3>Independent Novelist, Filmmaker, and Writer - Chicago, IL</h3>
-        October 2019 - Present 
-    <ul>
-        <li>I am a writer and editor for my upcoming novel, "Indigo Up Next." I write this fictional novel with an emphasis on storytelling techniques, character organization and theme planning. I engage in monthly writing critiques with Chicago Writers' Circle to receive and provide feedback on legibility, punctuation/ grammar, and overall narration.
-        </li>
-        <li>Currently I manage my own poetry CMS made with Ghost at https://intoo.studio/. The site features many of my own haikus and photography with expansion coming soon.
-        </li>
-        <li>Interned via One Summer Chicago at Open Center for the Arts, an art gallery in La Villita, Chicago. OPEN Center's mission is to share, showcase and promote different artistic expressions of emerging and aspiring artists as well as bridging established artists to the new generations and the community at large. Our youth cohort work included daily blog reflections, daily vlogging, weekly video production goals, as well as necessary research and reflection on storytelling and film-making.
-        </li>
-    </ul>
-
-    <h3>Independent Administrative Contractor - Chicago, IL</h3>
-        June 2015 - October 2020 
-    <ul>
-        <li>Utilized administrative skills for various projects and contracts. Worked at a medical non-profit, a luxury spa, and an apartment listing agency.
-        </li> 
-        <li>Cross-referenced databases in WizeHive, Raiser’s Edge, and Microsoft Dynamics to support team functions.
-        </li> 
-        <li>Collaboratively engaged the team by communicating agendas, meeting minutes, and action items for weekly staff meetings and quarterly board meetings.
-        </li> 
-        <li>Wrote, reviewed, and updated Statements of Procedure that were distinct and precise.
-        </li> 
-        <li>Assisted in dissemination of vendor payments and payments for scholarships, grants, and awards via ACH; tracked and collected credit card expenses and receipts.
-        </li> 
-        <li>Led the discovery of historical award winners over time in Excel and Raiser’s Edge with search engine research; made improvements for reading, navigation, and data collection.
-        </li> 
-    </ul>
-
-    <h3>HR Coordinator and On-Boarding Specialist - Chicago, IL</h3>
-        May 2018 - October 2019 
-    <ul>
-        <li>Successfully transferred on-boarding documents from Adobe e-sign to DocuSign in one week; emphasized user experience and interface design by accounting for the needs of new hires and recruiters; implemented radio buttons, response authentication, and mandatory fields to improve data collection; trained new users and effectively troubleshooted.
-        </li>
-        <li>Led the automated on-boarding initiative (via Bullhorn) by translating needs of accounting and recruiting departments into actionable steps for the team; coordinated meetings, prepared action items, and tested changes for user error; implemented Microsoft Flow automated workflows to improve productivity, which allowed for seamless contract uploading to SharePoint.
-        </li>
-        <li>Utilized training on U.S. work authorization, business certificates, and contract administration to consolidate the entire subcontractor line of business audit in Excel; minimized liability potential.
-        </li>
-        <li>Steered clear of subcontractor compliance issues with faster contract negotiation responses and increased data accuracy of partner companies for recruiters in Bullhorn CRM.
-        </li>
-        <li>Coordinated benefits enrollment with providers (BCBS, VSP, Fidelity), entered data online, answered questions, and tracked changes for all payroll employees; reported to the Controller weekly/monthly.
-        </li>
-        <li>Managed consultant background checks and drug screens.
-        </li> 
-    </ul>
-    
-    <h3>Administrative Assistant - Los Angeles, CA</h3>
-    <ul>
-        <li>Began as an administrative assistant and then elevated to a more comprehensive HR role.
-        </li>
-        <li>Managed consultant background check requests/ results and communicated status daily to recruiters.
-        </li>
-        <li>Processed online client time-sheet approvals; used email and phone to effectively reach dozens of consultants; evaluated over 100 submissions weekly.
-        </li>
-        <li>Certified and processed on-boarding forms for consultants, formatted resumes, and answered phones.
-        </li>
-    </ul>   
-<!--Professional Experience End-->  
-
 <!--Education Start-->
 <h2>Education</h2>
-    <h3>
-    Full Stack Web and Mobile App Development with MicroTrain Technologies<br>
-    Bachelor of Arts in Cultural Anthropology and Comparative Literature with a focus in Critical Thought from the University of Southern California 
-    </h3>
+    <p>Full Stack Web and Mobile App Development with MicroTrain Technologies
+    </p>
+    <p>Bachelor of Arts in Cultural Anthropology and Comparative Literature with a focus in Critical Thought from the University of Southern California
+    </p>
 <!--Education End-->
 
 <!--Top Button -->
 <a class="text-left" href="#top">Back to Top</a>
-<!--LinkedIn Button-->
-            <a class="btn btn-primary btn-md" href="https://www.linkedin.com/in/cynthiatrujillo96/" role="button" target="_blank">LinkedIn</a>
+
         </div>
     </div>
 </div>
 <!--Professional Experience End-->
 
 <!--Articles and JavaScript Library Start-->
+<div class="collapse" id="collapseJS">
+    <div class="card card-body">
+    </div>
+</div>
 <!--Articles and JavaScript Library End-->
 
 <!--Live Apps Start-->
+<div class="collapse" id="collapseLA">
+    <div class="card card-body">
+    </div>
+</div>
 <!--Live Apps End-->
 
 <!--jQuery and Bootstrap bundle-->
