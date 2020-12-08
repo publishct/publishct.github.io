@@ -20,3 +20,16 @@ githubLink.setAttribute('role','button');
 githubLink.textContent = 'github';
 
 mygithubBtn.appendChild(githubLink);
+
+const seeMore = document.querySelector('.collapseLive');
+seeMore.textContent = 'see Cynthia\'s live learning samples'
+
+function textChange (e) {
+    if ( e.target.textContent === 'see Cynthia\'s live learning samples' ) {
+        e.target.textContent =  '...see less samples';
+    } else {
+        e.target.textContent = 'see Cynthia\'s live learning samples';
+    }
+}
+
+seeMore.addEventListener('click', textChange);
