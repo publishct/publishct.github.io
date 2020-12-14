@@ -26,7 +26,7 @@ seeMore.textContent = 'see Cynthia\'s live learning samples'
 
 function textChange (e) {
     if ( e.target.textContent === 'see Cynthia\'s live learning samples' ) {
-        e.target.textContent =  '...see less samples';
+        e.target.textContent =  '...see fewer samples';
     } else {
         e.target.textContent = 'see Cynthia\'s live learning samples';
     }
