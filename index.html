@@ -113,12 +113,6 @@
         <!--Collapse Menus Start-->
         <!--CV-->
         <div class="row border bg-light rounded">
-            <div class="col text-center">
-                <a class="font-weight-bold" data-toggle="collapse" href="#collapseCV" role="button"
-                    aria-expanded="false" aria-controls="collapseExample">
-                    Resume
-                </a>
-            </div>
             <!--Articles and JavaScript Library-->
             <div class="col text-center">
                 <a class="font-weight-bold" data-toggle="collapse" href="#collapseJS" role="button"
@@ -143,15 +137,76 @@
     </div>
     <!--Personal Jumbotron End-->
 
+    <!--Articles and JavaScript Library Start-->
+    <div class="collapse" id="collapseJS">
+        <div class="card card-body bg-dark text-white">
+            <h2>Articles</h2>
+            <ul class="list-group list-group-flush text-center">
+                <li class="bg-dark text-white list-group-item"><a class="text-white"
+                        href="https://publish-cynthiatrujillo.medium.com/expensive-coding-boot-camps-are-everywhere-i-went-for-free-56f3c83f7163"
+                        target="_blank">Expensive coding boot camps are everywhere. I went for free.</a> Published on
+                    Medium</li>
+                <li class="bg-dark text-white list-group-item"><a class="text-white"
+                        href="https://publish-cynthiatrujillo.medium.com/100-spend-in-google-ads-and-a-priceless-release-from-imposter-syndrome-848b69e5273f"
+                        target="_blank">$100 spend in Google Ads and a priceless release from imposter syndrome</a>
+                    Published on Medium</li>
+                <li class="bg-dark text-white list-group-item"><a class="text-white"
+                        href="https://publish-cynthiatrujillo.medium.com/the-a-in-lamp-2b34a90d66a7" target="_blank">The
+                        A in LAMP</a>
+                    Published on Medium</li>
+                <li class="bg-dark text-white list-group-item"><a class="text-white"
+                        href="https://publish-cynthiatrujillo.medium.com/rick-and-morty-adventure-in-graphql-queries-and-mutations-d4e79f8399a"
+                        target="_blank">
+                        "Rick and Morty" adventure in GraphQL queries</a>
+                    Published on Medium</li>
+            </ul>
+            <h2>Open source</h2>
+            <ul class="list-group list-group-flush text-center">
+                <li class="bg-dark text-white list-group-item"><a class="text-white"
+                        href="https://www.npmjs.com/package/unorderedlist" target="_blank">npm UnorderedList</a></li>
+            </ul>
+            <a class="text-white" data-toggle="collapse" href="#collapseJS" role="button" aria-expanded="false"
+                aria-controls="collapseExample">
+                Collapse
+            </a>
+            <hr class="my-4 bg-dark">
+        </div>
+    </div>
+    <!--Articles and JavaScript Library End-->
+
+    <!--Live Apps Start-->
+    <div class="collapse" id="collapseLA">
+        <div class="card card-body bg-dark text-white">
+            <h2>Content Management Systems</h2>
+            <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item bg-dark"><a class="text-white" href="https://intoo.studio"
+                        target="_blank">Poetry with Ghost</a></li>
+                <li class="list-group-item bg-dark"><a class="text-white"
+                        href="http://ec2-18-224-170-133.us-east-2.compute.amazonaws.com" target="_blank">Fullstack React
+                        on AWS</a></li>
+                <li class="list-group-item bg-dark"><a class="text-white"
+                        href="https://github.com/publishct/mean.theircynthia.com" target="_blank">Express with REST
+                        API</a></li>
+            </ul>
+            <a class="text-white" data-toggle="collapse" href="#collapseLA" role="button" aria-expanded="false"
+                aria-controls="collapseExample">
+                Collapse
+            </a>
+            <hr class="my-4 bg-light">
+        </div>
+    </div>
+    <!--Live Apps End-->
+
     <!--Resume Start-->
-    <div class="collapse" id="collapseCV">
-        <div class="px-4 card card-body bg-info text-white">
+    <div>
+        <div class="card card-body bg-dark text-white rounded">
             <div class="row">
                 <div class="col text-center">
                     <div class="githubContainer"></div>
                 </div>
                 <div class="col text-center">
-                    <h2>Cynthia Trujillo (they, them)</h2>
+                    <h2>Cynthia Trujillo</h2>
+                    <h3>pronouns: they, them, theirs</h3>
                 </div>
                 <div class="col text-center">
                     <div class="linkedInContainer"></div>
@@ -262,10 +317,10 @@
             <!--Education Start-->
             <h2>Education</h2>
             <ul class="list-group list-group-flush">
-                <li class="bg-info text-white list-group-item">
+                <li class="bg-dark text-white list-group-item">
                     Full Stack Web and Mobile App Development with MicroTrain Technologies
                 </li>
-                <li class="bg-info text-white list-group-item">
+                <li class="bg-dark text-white list-group-item">
                     Bachelor of Arts in Cultural Anthropology and Comparative Literature with a focus in Critical
                     Thought from the University of Southern California
                 </li>
@@ -275,10 +330,10 @@
             <!--Certifications Start-->
             <h2>Certifications</h2>
             <ul class="list-group list-group-flush">
-                <li class="bg-info text-white list-group-item">Scrum Certified by Scrum Alliance, Issued July 2020 |
+                <li class="bg-dark text-white list-group-item">Scrum Certified by Scrum Alliance, Issued July 2020 |
                     Credential ID: 001093585
                 </li>
-                <li class="bg-info text-white list-group-item">LinkedIn Learning certifications in JavaScript Essential
+                <li class="bg-dark text-white list-group-item">LinkedIn Learning certifications in JavaScript Essential
                     Training, Functional Programming with ES6+, Gatsby, JavaScript Debugging, GraphQL Essential Training
                 </li>
             </ul>
@@ -289,94 +344,29 @@
             <div class="row">
                 <div class="col">
                     <ul class="list-group list-group-flush">
-                        <li class="bg-info text-white list-group-item">Cloud: Amazon EC2, Digital Ocean, Netlify</li>
-                        <li class="bg-info text-white list-group-item">Data: MongoDB, MySQL, MariaDB</li>
-                        <li class="bg-info text-white list-group-item">Languages: HTML5, CSS3, JavaScript, ES6,
+                        <li class="bg-dark text-white list-group-item">Cloud: Amazon EC2, Digital Ocean, Netlify</li>
+                        <li class="bg-dark text-white list-group-item">Data: MongoDB, MySQL, MariaDB</li>
+                        <li class="bg-dark text-white list-group-item">Languages: HTML5, CSS3, JavaScript, ES6,
                             TypeScript, Node.js</li>
-                        <li class="bg-info text-white list-group-item">Version Control: Git, test driven development
+                        <li class="bg-dark text-white list-group-item">Version Control: Git, test driven development
                         </li>
                     </ul>
                 </div>
                 <div class="col">
                     <ul class="list-group list-group-flush">
-                        <li class="bg-info text-white list-group-item">APIs and Services: REST, GraphQL</li>
-                        <li class="bg-info text-white list-group-item">Frameworks and Libraries: Bootstrap, jQuery,
+                        <li class="bg-dark text-white list-group-item">APIs and Services: REST, GraphQL</li>
+                        <li class="bg-dark text-white list-group-item">Frameworks and Libraries: Bootstrap, jQuery,
                             React, Gatsby, Angular, Ionic</li>
-                        <li class="bg-info text-white list-group-item">Tools: Gulp.js, Webpack, Babel, ESLint, Prettier,
+                        <li class="bg-dark text-white list-group-item">Tools: Gulp.js, Webpack, Babel, ESLint, Prettier,
                             ARIA specs, VSCode</li>
                     </ul>
                 </div>
             </div>
             <!--Languages End-->
-
-            <a class="text-dark" data-toggle="collapse" href="#collapseCV" role="button" aria-expanded="false"
-                aria-controls="collapseExample">
-                Collapse
-            </a>
             <hr class="my-4 bg-light">
         </div>
     </div>
     <!--Resume End-->
-
-    <!--Articles and JavaScript Library Start-->
-    <div class="collapse" id="collapseJS">
-        <div class="card card-body bg-info text-white">
-            <h2>Articles</h2>
-            <ul class="list-group list-group-flush text-center">
-                <li class="bg-info text-white list-group-item"><a class="text-dark"
-                        href="https://publish-cynthiatrujillo.medium.com/expensive-coding-boot-camps-are-everywhere-i-went-for-free-56f3c83f7163"
-                        target="_blank">Expensive coding boot camps are everywhere. I went for free.</a> Published on
-                    Medium</li>
-                <li class="bg-info text-white list-group-item"><a class="text-dark"
-                        href="https://publish-cynthiatrujillo.medium.com/100-spend-in-google-ads-and-a-priceless-release-from-imposter-syndrome-848b69e5273f"
-                        target="_blank">$100 spend in Google Ads and a priceless release from imposter syndrome</a>
-                    Published on Medium</li>
-                <li class="bg-info text-white list-group-item"><a class="text-dark"
-                        href="https://publish-cynthiatrujillo.medium.com/the-a-in-lamp-2b34a90d66a7" target="_blank">The
-                        A in LAMP</a>
-                    Published on Medium</li>
-                <li class="bg-info text-white list-group-item"><a class="text-dark"
-                        href="https://publish-cynthiatrujillo.medium.com/rick-and-morty-adventure-in-graphql-queries-and-mutations-d4e79f8399a"
-                        target="_blank">
-                        "Rick and Morty" adventure in GraphQL queries</a>
-                    Published on Medium</li>
-            </ul>
-            <h2>Open source</h2>
-            <ul class="list-group list-group-flush text-center">
-                <li class="bg-info text-white list-group-item"><a class="text-dark"
-                        href="https://www.npmjs.com/package/unorderedlist" target="_blank">npm UnorderedList</a></li>
-            </ul>
-            <a class="text-dark" data-toggle="collapse" href="#collapseJS" role="button" aria-expanded="false"
-                aria-controls="collapseExample">
-                Collapse
-            </a>
-            <hr class="my-4 bg-light">
-        </div>
-    </div>
-    <!--Articles and JavaScript Library End-->
-
-    <!--Live Apps Start-->
-    <div class="collapse" id="collapseLA">
-        <div class="card card-body bg-info text-white">
-            <h2>Content Management Systems</h2>
-            <ul class="list-group list-group-flush text-center">
-                <li class="list-group-item bg-info"><a class="text-dark" href="https://intoo.studio"
-                        target="_blank">Poetry with Ghost</a></li>
-                <li class="list-group-item bg-info"><a class="text-dark"
-                        href="http://ec2-18-224-170-133.us-east-2.compute.amazonaws.com" target="_blank">Fullstack React
-                        on AWS</a></li>
-                <li class="list-group-item bg-info"><a class="text-dark"
-                        href="https://github.com/publishct/mean.theircynthia.com" target="_blank">Express with REST
-                        API</a></li>
-            </ul>
-            <a class="text-dark" data-toggle="collapse" href="#collapseLA" role="button" aria-expanded="false"
-                aria-controls="collapseExample">
-                Collapse
-            </a>
-            <hr class="my-4 bg-light">
-        </div>
-    </div>
-    <!--Live Apps End-->
 
     <!--jQuery and Bootstrap bundle-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
